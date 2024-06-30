@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#6A2222"
+    app:layoutDescription="@xml/activity_main_scene3"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bottomBtn"
+        android:layout_width="187dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="120dp"
+
+        android:backgroundTint="#BD1818"
+        android:foregroundTint="#B81313"
+        android:text="BOTTOM"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/topBtn"
+        android:layout_width="187dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="112dp"
+
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="112dp"
+        android:text="TOP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
